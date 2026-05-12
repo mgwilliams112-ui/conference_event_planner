@@ -6,6 +6,6 @@ import avReducer from './avSlice';
 export default configureStore({
   reducer: {
     venue: venueReducer,
-    av: avReducer
+    av: avReducer,
   },
 });
